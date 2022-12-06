@@ -1,0 +1,72 @@
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #dfe9f5;
+}
+
+
+/* ######################################     Registration    #################################### */
+
+.reg_wrapper{
+    width: 650px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+ h1{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 10px;
+}
+
+.user-info-details-box{
+    margin: 20px;
+}
+
+.dropManu{
+    margin-bottom: 20px;
+}
+
+.registra input{
+    font-size: 1.1rem;
+    padding: 10px 0;
+    margin: 15px auto;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    background-color: green;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    
+}

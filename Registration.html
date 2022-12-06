@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/registion.css">
+    <title>Registration</title>
+</head>
+<body>
+   <div class="reg_wrapper">
+        <h1>Registration</h1>
+        <form action="Table.html" target="_blank">
+            <div class="main-user-info"> 
+                    <div class="user-input-box">
+                        <label for="FirstName">First Name :</label>
+                        <input type="text" id="FirstName" name="FirstName" placeholder="First Name">
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="LastName">Last Name : </label>
+                        <input type="text" id="LastName" name="LastName" placeholder="Last Name">
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="Password">Password :</label>
+                        <input type="Password" id="Password" name="Password" placeholder="Password">
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="confirmPassword">confirmPassword : </label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="confirmPassword">
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="date">Date of Birth :</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="tel">phone : </label>
+                        <input type="tel" id="tel" name="tel" placeholder="+880">
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="file">Choose Photo :</label>
+                        <input type="file" id="file" name="file">
+                    </div>
+  
+            </div>
+
+        <div class="user-info-details">
+                    
+                <div class="user-info-details-box">
+                    Gender: <input type="radio"> Male <input type="radio"> Female <input type="radio"> Others
+                </div>
+
+                <div class="user-info-details-box">
+                    Religion: <input type="checkbox"> Islam <input type="checkbox"> Hindu <input type="checkbox"> Others
+                </div>
+
+    
+                <div class="dropManu user-info-details-box">Country :
+                    <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+
+                    </select>
+                </div>
+        </div>
+  
+        <label for="text">Comments :</label>
+            <div>
+                <textarea name="" id="text" cols="70" rows="10"></textarea>
+            </div>
+            
+            <div class="registra">
+                <input type="submit" value="Registration">
+            </div>
+
+
+        </form>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #dfe9f5;
+}
+
+/* ######################################     LOGIN    #################################### */
+
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+h1{
+    font-size: 1.9rem;
+    margin-bottom: 1.2rem;
+}
+
+form input:not(:last-child){
+    background-color: #e4e4e4;
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+}
+
+form input:last-child {
+    font-size: 1rem;
+    padding: 10px 0;
+    margin: 15px auto;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.revcover{
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 0.4rem 1.5rem 0 0;
+}
+
+.revcover a{
+    text-decoration: none;
+    color: #464648;
+}
+
+
+button:hover{
+    background-color: rgb(6, 105, 6);
+    transition: all 0.2s;
+}
+
+.member{
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+}
+
+
